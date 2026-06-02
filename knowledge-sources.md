@@ -6,7 +6,19 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 
 ## Frameworks and guidance
 
+## Scholarly articles and literature
+
+- https://www.nature.com/articles/sdata201618
+- https://www.pnas.org/doi/10.1073/pnas.1708274114
+
 ## Platforms and portals
+
+- https://zenodo.org/
+- https://www.cos.io/initiatives/prereg
+
+## Training and learning resources
+
+- https://training.galaxyproject.org/training-material/topics/fair/tutorials/fair-intro/tutorial.html
 
 ## Institutional guidance and policy
 

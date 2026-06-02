@@ -11,16 +11,21 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 - https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science_en
 - https://www.ukrn.org/resources/
 - https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
+- https://ukrio.org/resources/
 
 ## Scholarly articles and literature
 
 - https://www.nature.com/articles/sdata201618
 - https://www.pnas.org/doi/10.1073/pnas.1708274114
+- https://www.nature.com/articles/s41562-016-0021
+- https://www.science.org/doi/10.1126/science.aab2374
+- https://elifesciences.org/articles/16800
 
 ## Platforms and portals
 
 - https://zenodo.org/
 - https://www.cos.io/initiatives/prereg
+- https://osf.io/
 
 ## Training and learning resources
 
@@ -40,3 +45,21 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 - https://www.software.ac.uk/ 
 - https://choosealicense.com/
 
+## Data management
+
+- https://dmponline.dcc.ac.uk/
+- https://www.re3data.org/
+
+## Public engagement
+
+- https://www.publicengagement.ac.uk/
+- https://www.ukri.org/what-we-do/public-engagement/
+
+## Open access and publishing
+
+- https://openpolicyfinder.jisc.ac.uk/
+- https://doaj.org/
+
+## University of Leeds policy
+
+- https://library.leeds.ac.uk/info/1406/researcher-support

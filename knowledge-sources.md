@@ -25,6 +25,8 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 ## Training and learning resources
 
 - https://training.galaxyproject.org/training-material/topics/fair/tutorials/fair-intro/tutorial.html
+- https://book.the-turing-way.org/
+- https://openscience.eu/article/project/foster
 
 ## Institutional guidance and policy
 

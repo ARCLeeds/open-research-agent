@@ -10,15 +10,21 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 - https://www.ukri.org/about-us/epsrc/our-policies-and-standards/policy-framework-on-research-data/
 - https://www.ukri.org/publications/bbsrc-data-sharing-policy/
 - https://www.ukri.org/publications/ahrc-research-funding-guide/
+- https://wellcome.org/our-priorities/equity/open-research
 
 ## Frameworks and guidance
 
+- https://www.go-fair.org/fair-principles/
 - https://arc.leeds.ac.uk/knowledge-centre/how-to-make-your-research-software-citable/
 - https://www.gov.uk/government/publications/the-magenta-book/transparency-in-government-evaluation-research-t-i-g-e-r-html
 - https://www.pnas.org/doi/10.1073/pnas.2536736123
 - https://unesdoc.unesco.org/ark:/48223/pf0000379949
 - https://forrt.org/replication-handbook/
 - https://cogtales.wordpress.com/2023/04/16/the-buffet-approach-to-open-science/
+- https://github.com/open-organization/open-decision-Frameworks
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5049448/
+- https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-26-stakeholder-engagement/
+- https://www.gov.uk/guidance/government-design-principles
 
 ## Scholarly articles and literature
 
@@ -33,6 +39,7 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 - https://zenodo.org/records/19232891
 - https://link.springer.com/article/10.1007/s41471-025-00218-5
 - https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000387#_i4
+- https://journals.uclpress.co.uk/r4a/article/id/3227/
 
 ## Platforms and portals
 
@@ -45,6 +52,7 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 - https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.438
 - https://joss.theoj.org/
 - https://en.wikipedia.org/wiki/List_of_open-access_journals
+- https://wellcomeopenresearch.org/
 
 ## Training and learning resources
 

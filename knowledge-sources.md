@@ -37,7 +37,6 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 
 - https://researchculture.leeds.ac.uk/open-research-hub/
 - https://library.leeds.ac.uk/info/1406/researcher-support/199/open-research
-- https://library.leeds.ac.uk/info/1406/researcher-support/199/open-research/2
 - https://library.leeds.ac.uk/info/1406/researcher-support/229/university-research-outputs-policy
 
 ## Software sustainability
@@ -59,7 +58,3 @@ This file lists the sources used by the Open Research Workflow Agent to surface 
 
 - https://openpolicyfinder.jisc.ac.uk/
 - https://doaj.org/
-
-## University of Leeds policy
-
-- https://library.leeds.ac.uk/info/1406/researcher-support

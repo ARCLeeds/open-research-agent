@@ -2,6 +2,8 @@
 
 Building blocks for an open, platform-agnostic open research methodology agent.
 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
 ## What this is
 
 This repository contains the building blocks for a simple AI agent designed to help researchers and research support staff navigate open research guidance in a more usable and proportionate way.
@@ -24,11 +26,19 @@ We are being transparent about this because the project is about responsible and
 
 The use of an AI assistant in development does not mean the outputs are unreviewed. All content has been checked and edited by a human. However, as with any AI-assisted work, readers should apply their own judgement, particularly to source annotations and any statements about funder policy, which should be verified against primary sources.
 
+## Source strategy
+
+The agent is instructed to prefer sources from a curated list of reputable, publicly available guidance maintained in this repository. However, it is not restricted to those sources alone.
+
+This is a deliberate decision. Restricting the agent to a fixed source list risks it sounding authoritative while actually having an artificially narrow view of a fast-moving and genuinely multidisciplinary space. Open research guidance spans multiple disciplines, funders, institutions, and regulatory contexts — a fixed list will always have gaps, and over-constraining the agent risks producing responses that refuse to engage with legitimate questions simply because a relevant source wasn't anticipated when the list was compiled.
+
+The trade-off is that not all sources the agent draws on will have been reviewed or curated. **Users should always verify links and check claims against primary sources**, particularly for anything touching funder policy, data protection, or institutional requirements. The agent is a starting point for exploration, not an authoritative reference.
+
 ## Known limitations
 
 ### Limitations of the agent itself
 
-- **The agent may draw on general knowledge rather than specified sources.** Despite instructions to the contrary, the agent cannot always be relied upon to restrict its responses to the curated knowledge base. Users should treat its outputs as a starting point for further exploration, not as authoritative guidance.
+- **Coverage of the curated source list is incomplete.** The agent draws on a curated list of reputable sources as a preference, but is not restricted to it. See *Source strategy* above.
 - **Source citation is inconsistent.** The agent does not always attribute statements to named sources, even when instructed to do so. Where citations are provided, they should be verified.
 - **Coverage is limited to the planning stage.** The agent is not yet configured to support other lifecycle stages and will decline to help with them.
 - **It is not a substitute for specialist advice.** For questions involving data protection, intellectual property, ethics, or funder compliance, users should consult their institution's specialist support teams.
@@ -46,8 +56,10 @@ These constraints significantly affect how much the agent can draw on specified 
 
 ## What's in this repository
 
-- **`pages/index.md`** — the curated list of publicly available sources the agent draws on, organised by category. This is the primary knowledge base for the agent. It is designed to be configurable: deployers are encouraged to add or substitute sources appropriate to their institutional context.
+- **`knowledge/index.md`** — the curated list of publicly available sources the agent draws on, organised by category. This is the primary knowledge base for the agent. It is designed to be configurable: deployers are encouraged to add or substitute sources appropriate to their institutional context.
+- **`knowledge/illustrative-examples.md`** — illustrative examples of open research principles in practice, across different research contexts and output types. These are intended to help ground abstract considerations in realistic scenarios and are drawn on by the agent when relevant.
 - **`docs/scoping-document.md`** — the scoping document describing the design intent, interaction design, and open questions behind the agent.
+- **`implementations/copilot-chat.md`** — the configurations for an implementation in M365 as a copilot chat agent.
 
 The agent prompt and description are not yet saved as files in this repository. This is planned.
 
@@ -72,10 +84,22 @@ To deploy your own version:
 2. Point the agent at `https://arcleeds.github.io/open-research-agent` as a knowledge source, or host your own adapted version of the source list
 3. Substitute or extend the institutional guidance section of `pages/index.md` with sources appropriate to your context
 
+## How to contribute
+
+Contributions are welcome and the project will benefit from them. The most useful things people can add are:
+
+- **Sources** — additional reputable, publicly available guidance relevant to open research planning. If you know of funder policies, institutional frameworks, or discipline-specific guidance that isn't currently represented, please suggest it or submit a pull request to `pages/index.md`.
+- **Annotations** — richer or more accurate descriptions of existing sources, particularly where the current annotation doesn't reflect a source's full relevance or scope.
+- **Illustrative examples** — new scenarios in `examples.md` that show open research principles in practice across different research contexts, disciplines, or output types.
+
+If you're not comfortable with GitHub, you're welcome to raise suggestions as an issue or get in touch directly.
+
 ## Licence
 
-This work is made available under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You are free to use, adapt, and build on it without restriction.
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-## Contributing
+This project is released under [CC0 1.0 Universal (Public Domain Dedication)](http://creativecommons.org/publicdomain/zero/1.0/). You are free to copy, adapt, and reuse any part of it without attribution.
 
-This is an early-stage project and feedback is welcome. If you have suggestions for sources, improvements to the interaction design, or experience deploying the agent in a different context, please open an issue or get in touch.
+The content of this repository — sources, annotations, and illustrative examples — draws substantially on community-produced knowledge and publicly available guidance. Claiming ownership over a curation of others' work would be inconsistent with the collaborative and open spirit the project is trying to embody, and would sit awkwardly alongside an invitation to others to contribute to it.
+
+This does not affect any intellectual property that may arise from use of the tool within an experimental process — including findings, analysis, and conclusions about the design and effectiveness of this kind of tool.
